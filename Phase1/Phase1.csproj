@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>finalreportscript1</RootNamespace>
+      <UserSecretsId>7844f36a-80e0-4e09-95d5-83479b744808</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.13" />
+      <PackageReference Include="Octokit" Version="14.0.0" />
+    </ItemGroup>
+
+</Project>
